@@ -16,4 +16,12 @@ git log --oneline -- mas simplificado
 git log --stat -- ver cuantos cambios hubo
 git log -p ver -- cambios por commit
 
+<<<<<<< HEAD
 git checkout -b segundarama -- crea y te dirige a una nueva rama
+=======
+
+git branch -- ver las ramas
+git branch (nombre) -- crea nueva rama 
+
+git checkout nuevarama -- indica la rama que quiera usar
+>>>>>>> nuevarama
