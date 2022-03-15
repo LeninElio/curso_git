@@ -16,12 +16,27 @@ git log --oneline -- mas simplificado
 git log --stat -- ver cuantos cambios hubo
 git log -p ver -- cambios por commit
 
-<<<<<<< HEAD
+
 git checkout -b segundarama -- crea y te dirige a una nueva rama
-=======
+
 
 git branch -- ver las ramas
 git branch (nombre) -- crea nueva rama 
 
 git checkout nuevarama -- indica la rama que quiera usar
->>>>>>> nuevarama
+
+
+-- el merge se realiza siempre que no haya commits pendientes
+-- situarnos en la rama que reciba los cambios
+git merge segundarama -- pasamos todo los cambios de segunda rama a master
+
+git remote -- trabajar con github 
+-- crea un repositorio en github
+git remote
+git remote add origin git@github.com:LeninElio/curso_git.git
+git remote -v 
+
+
+git push -- nos ayuda a enviear nuestro codigo al repositorio remoto 
+
+git log --oneline --graph --all -- ver todo el log
