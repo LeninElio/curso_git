@@ -8,3 +8,10 @@ git status -- ver el estado
 -- git ignore ignora las extenciones que especifiques 
 git add . -- agrega todos los archivos
 git commit -m "" -- agregar achivos para trackeo
+
+git add notas.le --patch -- guarda el contenido por partes 
+git diff (archivo) -- ver los cambios en un archivo
+git log -- ver todos los commit
+git log --oneline -- mas simplificado 
+git log --stat -- ver cuantos cambios hubo
+git log -p ver -- cambios por commit
