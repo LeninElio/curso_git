@@ -6,4 +6,5 @@ git init -- inicializar
 git add -- añadir archivos
 git status -- ver el estado 
 -- git ignore ignora las extenciones que especifiques 
-git add . -- 
+git add . -- agrega todos los archivos
+git commit -m "" -- agregar achivos para trackeo
