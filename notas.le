@@ -1,1 +1,9 @@
-git add
+git config --global user.name "LeninElio"
+git config --global user.email "moreno_leninelio@hotmail.es"
+
+
+git init -- inicializar 
+git add -- añadir archivos
+git status -- ver el estado 
+-- git ignore ignora las extenciones que especifiques 
+git add . -- 
