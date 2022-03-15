@@ -15,3 +15,5 @@ git log -- ver todos los commit
 git log --oneline -- mas simplificado 
 git log --stat -- ver cuantos cambios hubo
 git log -p ver -- cambios por commit
+
+git checkout -b segundarama -- crea y te dirige a una nueva rama
