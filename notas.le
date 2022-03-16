@@ -40,3 +40,18 @@ git remote -v
 git push -- nos ayuda a enviear nuestro codigo al repositorio remoto 
 
 git log --oneline --graph --all -- ver todo el log
+
+
+
+git stash -- guarda codigo temporalmente
+-- crea una rama
+git starsh pop -- restaura el codigo temporal
+
+git checkout <hash> verificamos los cambios en una hash 
+git revert -- "elimina el ultimo commit"
+
+git reset --hard <hash> -- revierte al hash seleccionado 
+
+git commit --amend -- agregamos mas informacion al ultimo commit
+
+git rebase 
