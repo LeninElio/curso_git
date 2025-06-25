@@ -16,6 +16,8 @@ lista_cursos = [
     'Scala',
     'Perl', # Curso añadido por frenzy
     'Dart', # Curso añadido por frenzy
+    'Elixir', # Curso añadido por parallel
+    'Haskell' # Curso añadido por parallel
 ]
 
 for curso in lista_cursos:
