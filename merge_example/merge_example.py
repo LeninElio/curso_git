@@ -14,6 +14,8 @@ lista_cursos = [
     'Kotlin',
     'TypeScript',
     'Scala',
+    'Perl', # Curso añadido por frenzy
+    'Dart', # Curso añadido por frenzy
 ]
 
 for curso in lista_cursos:
